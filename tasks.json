@@ -1,0 +1,50 @@
+{
+    "tasks": [
+        {
+            "title": "Fazer compras, antes fazer lista",
+            "description": "Comprar leite, pão e ovos",
+            "owner": "João",
+            "status": "Pendente",
+            "comments": [
+                "Comentário 1",
+                "Comentário 2"
+            ],
+            "id": 1
+        },
+        {
+            "id": 2,
+            "title": "um titulo da minha primeira task",
+            "description": "uma descrição da minha primeira task",
+            "status": "pendente",
+            "owner": "Joao",
+            "comments": []
+        },
+        {
+            "id": 3,
+            "title": "um titulo que inventei",
+            "description": "uma nova descrição da minha primeira task",
+            "status": "pendente",
+            "owner": "Ernani",
+            "comments": []
+        },
+        {
+            "id": 4,
+            "title": "um novo titulo que inventei",
+            "description": "uma nova outra descrição da minha primeira task",
+            "status": "pendente",
+            "owner": "Gabryel",
+            "comments": []
+        },
+        {
+            "title": "Fazer comprahbjbhs",
+            "description": "Comprar 2 leite, pão e ovos",
+            "owner": "João",
+            "status": "Pendente",
+            "comments": [
+                "Comentário 1",
+                "Comentário 2"
+            ],
+            "id": 5
+        }
+    ]
+}
