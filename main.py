@@ -1,6 +1,17 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 
+from database import create_db_and_tables
+from models.task_model import Task
+
 from routes.task_routes import router
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    create_db_and_tables()
+    yield
+
 
 app = FastAPI(
     title="Todo API",
@@ -9,6 +20,7 @@ app = FastAPI(
     contact={
         "name": "Equipe da disciplina INF8B",
     },
+    lifespan=lifespan,
 )
 
 app.include_router(router)
